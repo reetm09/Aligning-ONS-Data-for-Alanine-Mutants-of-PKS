@@ -1,5 +1,7 @@
 # Aligning-ONS-Data-for-Alanine-Mutants-of-PKS
 Analyzing Oxford Nanopore DNA Sequencing Data to locate Alanine Substitution Mutants of a Polyketide Synthase
+##### Authors: Reet Mishra, Dr. Bob St. Onge, Davis Lab, Stanford Genome Technology Center
+
 
 For decades, baker’s yeast has been known to be a good host and model organism for
 expressing biosynthetic genes from other organisms. Furthermore, fungi have long been
@@ -41,4 +43,4 @@ genetically engineer potential medicinal drugs more rapidly than ever before.
 1. samtools view -Sb output_folder/output_folder.sam > output_folder/output_folder.bam
 2. bedtools bamtobed -cigar -i output_folder.bam > output_folder.bed
 
-##### Authors: Reet Mishra, Dr. Bob St. Onge, Davis Lab, Stanford Genome Technology Center
+
