@@ -35,7 +35,7 @@ genetically engineer potential medicinal drugs more rapidly than ever before.
 2. mv fastafile.fasta bowtie2index_foldername
 3. bowtie2-build bowtie2index_foldername/fastafile.fasta bowtie2index_foldername/bowtie2index_foldername
 
-### Alignming through Bowtie2 
+### Aligning through Bowtie2 
 1. mkdir output_folder
 2. bowtie2 --score-min L,-12,-12 --all -x bowtie2index_foldername/bowtie2index_foldername fastqfile_withBarcodes.fastq > output_folder/output_folder.sam
 
